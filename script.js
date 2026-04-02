@@ -4,7 +4,7 @@ const arquivos = [
   "dados/bolsa.json"
 ];
 
-// CARREGA
+// CARREGA DADOS
 async function carregarDados() {
   for (let arq of arquivos) {
     const res = await fetch(arq);
@@ -13,7 +13,13 @@ async function carregarDados() {
   }
 }
 
-// BUSCA TOTAL (SEM FRESCURA)
+// EXTRAI NÚMERO DA FÁBRICA (ex: F01 → 1)
+function extrairNumeroFabrica(nome) {
+  const match = nome.match(/\d+/);
+  return match ? String(parseInt(match[0])) : null;
+}
+
+// BUSCA
 function buscar() {
   const texto = document.getElementById("busca").value.toLowerCase();
 
@@ -28,8 +34,10 @@ function buscar() {
 
     Object.keys(c.fabricas).forEach(nomeFabrica => {
 
-      // verifica número da fábrica
-      if (!fabricaNum || nomeFabrica.includes(fabricaNum)) {
+      let numeroReal = extrairNumeroFabrica(nomeFabrica);
+
+      // compara corretamente agora
+      if (!fabricaNum || numeroReal === fabricaNum) {
 
         let dados = c.fabricas[nomeFabrica];
 
