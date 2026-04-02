@@ -1,1 +1,1723 @@
-
+{
+  "cliente": "MOHNISH",
+  "fabricas": {
+    "F01 Caili Electronic (Shenzhen)": [
+      {
+        "familia": "1",
+        "registro": "003962/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "004559/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "004018/2021",
+        "validade": "7/1/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "004560/2021",
+        "validade": "7/16/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "004015/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "004107/2021",
+        "validade": "7/1/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "004017/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "004019/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "9",
+        "registro": "003961/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "10",
+        "registro": "005589/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "11",
+        "registro": "005386/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "12",
+        "registro": "005471/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "13",
+        "registro": "005255/2021",
+        "validade": "2/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "14",
+        "registro": "005586/2021",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "15",
+        "registro": "005464/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "16",
+        "registro": "005406/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "17",
+        "registro": "005407/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "18",
+        "registro": "005463/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "19",
+        "registro": "005587/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "20",
+        "registro": "005835/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "21",
+        "registro": "000553/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "22",
+        "registro": "005834/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "23",
+        "registro": "005824/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "24",
+        "registro": "006491/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "25",
+        "registro": "006468/2021",
+        "validade": "2/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "26",
+        "registro": "006469/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "27",
+        "registro": "001554/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "28",
+        "registro": "005946/2022",
+        "validade": "5/27/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "29",
+        "registro": "005947/2022",
+        "validade": "5/31/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "30",
+        "registro": "005948/2022",
+        "validade": "5/31/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "31",
+        "registro": "007591/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "32",
+        "registro": "007592/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "33",
+        "registro": "007594/2022",
+        "validade": "2/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "34",
+        "registro": "007596/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "35",
+        "registro": "007599/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "36",
+        "registro": "007600/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "37",
+        "registro": "007603/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "38",
+        "registro": "007606/2022",
+        "validade": "7/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "39",
+        "registro": "007523/2022",
+        "validade": "7/4/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "40",
+        "registro": "007524/2022",
+        "validade": "7/4/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "41",
+        "registro": "007525/2022",
+        "validade": "7/4/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "42",
+        "registro": "007526/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "43",
+        "registro": "007527/2022",
+        "validade": "7/4/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "44",
+        "registro": "009153/2022",
+        "validade": "7/26/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "45",
+        "registro": "010086/2022",
+        "validade": "9/13/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "46",
+        "registro": "010404/2022",
+        "validade": "9/13/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "47",
+        "registro": "010444/2022",
+        "validade": "9/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "48",
+        "registro": "010445/2022",
+        "validade": "9/21/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "49",
+        "registro": "010446/2022",
+        "validade": "9/12/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "50",
+        "registro": "010305/2022",
+        "validade": "9/20/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "51",
+        "registro": "010306/2022",
+        "validade": "9/20/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "52",
+        "registro": "010148/2022",
+        "validade": "9/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "53",
+        "registro": "000417/2023",
+        "validade": "10/26/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "54",
+        "registro": "000438/2023",
+        "validade": "10/26/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "55",
+        "registro": "001010/2023",
+        "validade": "10/26/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "56",
+        "registro": "011508/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "57",
+        "registro": "001007/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "58",
+        "registro": "3747150",
+        "validade": "3/27/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "59",
+        "registro": "013308/2022",
+        "validade": "12/19/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "60",
+        "registro": "000422/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "61",
+        "registro": "000423/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "62",
+        "registro": "000424/2023",
+        "validade": "1/6/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "63",
+        "registro": "001012/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "64",
+        "registro": "012772/2022",
+        "validade": "2/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "65",
+        "registro": "012922/2022",
+        "validade": "2/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "66",
+        "registro": "000418/2023",
+        "validade": "1/6/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "67",
+        "registro": "013241/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "68",
+        "registro": "000425/2023",
+        "validade": "1/6/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "69",
+        "registro": "013307/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "70",
+        "registro": "000426/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "71",
+        "registro": "001984/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "72",
+        "registro": "002028/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "73",
+        "registro": "001985/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "74",
+        "registro": "001988/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "75",
+        "registro": "PULOU",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "76",
+        "registro": "003430/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "77",
+        "registro": "005453/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "78",
+        "registro": "008268/2023",
+        "validade": "8/3/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "79",
+        "registro": "008501/2023",
+        "validade": "8/2/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "80",
+        "registro": "008269/2023",
+        "validade": "8/2/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "81",
+        "registro": "010129/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "82",
+        "registro": "010183/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "83",
+        "registro": "008765/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "84",
+        "registro": "010132/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "85",
+        "registro": "010133/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "86",
+        "registro": "010134/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "87",
+        "registro": "010143/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "88",
+        "registro": "010054/2023",
+        "validade": "9/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "89",
+        "registro": "010135/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "90",
+        "registro": "010137/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "91",
+        "registro": "010136/2023",
+        "validade": "8/25/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "92",
+        "registro": "011287/2023",
+        "validade": "11/6/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "93",
+        "registro": "004410/2024",
+        "validade": "3/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "94",
+        "registro": "004411/2024",
+        "validade": "3/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "95",
+        "registro": "004413/2024",
+        "validade": "3/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "96",
+        "registro": "011368/2024",
+        "validade": "6/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "97",
+        "registro": "010455/2024",
+        "validade": "6/10/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "98",
+        "registro": "011811/2024",
+        "validade": "7/3/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "99",
+        "registro": "010456/2024",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "100",
+        "registro": "008864/2024",
+        "validade": "5/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "101",
+        "registro": "010457/2024",
+        "validade": "6/10/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "102",
+        "registro": "011812/2024",
+        "validade": "7/3/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "103",
+        "registro": "011815/2024",
+        "validade": "6/10/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "104",
+        "registro": "015342/2024",
+        "validade": "9/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "105",
+        "registro": "015343/2024",
+        "validade": "9/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "106",
+        "registro": "015344/2024",
+        "validade": "9/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "107",
+        "registro": "015345/2024",
+        "validade": "9/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "108",
+        "registro": "015558/2024",
+        "validade": "9/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "109",
+        "registro": "015664/2024",
+        "validade": "9/24/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "110",
+        "registro": "015666/2024",
+        "validade": "9/24/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "111",
+        "registro": "015676/2024",
+        "validade": "9/24/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "112",
+        "registro": "017229/2024",
+        "validade": "10/29/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "113",
+        "registro": "017631/2024",
+        "validade": "11/7/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "114",
+        "registro": "017850/2024",
+        "validade": "11/11/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "115",
+        "registro": "017720/2024",
+        "validade": "11/7/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "116",
+        "registro": "017632/2024",
+        "validade": "11/7/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "117",
+        "registro": "017635/2024",
+        "validade": "11/7/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "118",
+        "registro": "001411/2025",
+        "validade": "2/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "119",
+        "registro": "003068/2025",
+        "validade": "3/19/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "120",
+        "registro": "013160/2025",
+        "validade": "11/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "121",
+        "registro": "013113/2025",
+        "validade": "11/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "122",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "123",
+        "registro": "001843/2026",
+        "validade": "1/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "124",
+        "registro": "001418/2026",
+        "validade": "1/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "125",
+        "registro": "001419/2026",
+        "validade": "1/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "126",
+        "registro": "002951/2026",
+        "validade": "3/9/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "127",
+        "registro": "002952/2026",
+        "validade": "3/9/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "128",
+        "registro": "002950/2026",
+        "validade": "3/9/27",
+        "manutencao": ""
+      }
+    ],
+    "F02 Zhongshan Yong Sheng Toys F": [
+      {
+        "familia": "1",
+        "registro": "004014/2021",
+        "validade": "2/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "004947/2021",
+        "validade": "7/1/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "004163/2021",
+        "validade": "7/5/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "004285/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "005387/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "005282/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "005590/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "005285/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "9",
+        "registro": "005591/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "10",
+        "registro": "005720/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "11",
+        "registro": "005281/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "12",
+        "registro": "005280/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "13",
+        "registro": "005283/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "14",
+        "registro": "006489/2021",
+        "validade": "2/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "15",
+        "registro": "006492/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "16",
+        "registro": "006488/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "17",
+        "registro": "007189/2021",
+        "validade": "2/7/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "18",
+        "registro": "005802/2022",
+        "validade": "5/26/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "19",
+        "registro": "005803/2022",
+        "validade": "5/26/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "20",
+        "registro": "007508/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "21",
+        "registro": "009770/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "22",
+        "registro": "002077/2026.",
+        "validade": "2/7/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "23",
+        "registro": "010145/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "24",
+        "registro": "010450/2022",
+        "validade": "9/14/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "25",
+        "registro": "010146/2022",
+        "validade": "9/12/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "26",
+        "registro": "000427/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "27",
+        "registro": "000419/2023",
+        "validade": "1/3/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "28",
+        "registro": "002030/2023",
+        "validade": "3/8/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "29",
+        "registro": "005452/2023",
+        "validade": "5/31/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "30",
+        "registro": "012373/2024",
+        "validade": "7/18/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "31",
+        "registro": "012374/2024",
+        "validade": "7/18/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "32",
+        "registro": "011813/2024",
+        "validade": "7/5/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "33",
+        "registro": "008801/2024",
+        "validade": "5/16/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "34",
+        "registro": "008805/2024",
+        "validade": "5/22/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "35",
+        "registro": "x",
+        "validade": "x",
+        "manutencao": ""
+      },
+      {
+        "familia": "36",
+        "registro": "017855/2024",
+        "validade": "11/14/26",
+        "manutencao": ""
+      }
+    ],
+    "F03 Guangdong Xinyu Crafts & To": [
+      {
+        "familia": "1",
+        "registro": "004012/2021",
+        "validade": "7/1/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "004164/2021",
+        "validade": "7/2/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "001552/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "005851/2022",
+        "validade": "5/26/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "009145/2022",
+        "validade": "8/2/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "001143/2026",
+        "validade": "1/21/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "009860/2023",
+        "validade": "9/21/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "3707790",
+        "validade": "",
+        "manutencao": ""
+      }
+    ],
+    "F04 Hongxing Plastic Toy Factor": [
+      {
+        "familia": "1",
+        "registro": "004011/2021",
+        "validade": "7/1/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "004016/2021",
+        "validade": "6/29/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "004108/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "005710/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "006490/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "007520/2022",
+        "validade": "6/30/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "007521/2022",
+        "validade": "6/30/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "007611/2022",
+        "validade": "7/6/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "9",
+        "registro": "000429/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "10",
+        "registro": "010143/2022",
+        "validade": "9/19/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "11",
+        "registro": "010299/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "12",
+        "registro": "",
+        "validade": "?",
+        "manutencao": ""
+      },
+      {
+        "familia": "13",
+        "registro": "012789/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "14",
+        "registro": "012584/2022",
+        "validade": "10/31/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "15",
+        "registro": "001400/2023",
+        "validade": "12/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "16",
+        "registro": "010552/2023",
+        "validade": "10/10/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "17",
+        "registro": "011000/2023",
+        "validade": "10/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "18",
+        "registro": "",
+        "validade": "?",
+        "manutencao": ""
+      },
+      {
+        "familia": "19",
+        "registro": "011367/2024",
+        "validade": "10/11/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "20",
+        "registro": "017861/2024",
+        "validade": "11/13/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "21",
+        "registro": "017830/2024",
+        "validade": "11/13/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "22",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "23",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "24",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "25",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      }
+    ],
+    "F05 Bin Yuan Plastic Toys Facto": [
+      {
+        "familia": "1",
+        "registro": "005465/2021",
+        "validade": "7/23/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "005896/2021",
+        "validade": "9/6/26",
+        "manutencao": ""
+      }
+    ],
+    "F06 - Belinda Toys Co., Ltd": [
+      {
+        "familia": "1",
+        "registro": "004039/2021",
+        "validade": "6/29/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "004013/2021",
+        "validade": "1/27/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "006946/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      }
+    ],
+    "F07 Chongqing City Metoo Indust": [
+      {
+        "familia": "1",
+        "registro": "005708/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "005895/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "007753/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "009768/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "009769/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "011963/2022",
+        "validade": "1/15/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "011017/2024",
+        "validade": "6/11/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "009383/2024",
+        "validade": "5/22/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "9",
+        "registro": "008810/2024",
+        "validade": "5/22/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "10",
+        "registro": "008860/2024",
+        "validade": "5/22/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "11",
+        "registro": "016443/2024",
+        "validade": "10/16/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "12",
+        "registro": "015739/2024",
+        "validade": "9/30/26",
+        "manutencao": ""
+      }
+    ],
+    "F08  JIANGSU JILONG SPORT AND L": [
+      {
+        "familia": "1",
+        "registro": "005580/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "010024/2024",
+        "validade": "6/18/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "018745/2024",
+        "validade": "12/6/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "018750/2024",
+        "validade": "12/6/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "018752/2024",
+        "validade": "12/6/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "018756/2024",
+        "validade": "12/6/26",
+        "manutencao": ""
+      }
+    ],
+    "F09 Guangdong Alpha Industry Co": [
+      {
+        "familia": "1",
+        "registro": "005222/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "005223/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      }
+    ],
+    "F10 Zhongshan New Style Plastic": [
+      {
+        "familia": "1",
+        "registro": "005254/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      }
+    ],
+    "F11 Suzhou Gentle Treasure Toys": [
+      {
+        "familia": "1",
+        "registro": "005584/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "005585/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      }
+    ],
+    "F12 Zhejiang JiaJia Ride-on Ltd": [
+      {
+        "familia": "1",
+        "registro": "005581/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      }
+    ],
+    "F13 - Yongkang Yanma Industry a": [
+      {
+        "familia": "1",
+        "registro": "005588/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "005825/2021",
+        "validade": "1/28/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "011501/2022",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "008865/2024",
+        "validade": "5/23/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "008866/2024",
+        "validade": "5/23/27",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "9",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "10",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "11",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "12",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "13",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "14",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "15",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "16",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "17",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "18",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      }
+    ],
+    "F14 Shao Guan Early Light Inter": [
+      {
+        "familia": "1",
+        "registro": "005582/2021",
+        "validade": "8/20/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "010449/2022",
+        "validade": "9/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "000494/2023",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "008808/2024",
+        "validade": "5/20/27",
+        "manutencao": ""
+      }
+    ],
+    "F15 Jinjiang Lida Electronic Co": [
+      {
+        "familia": "1",
+        "registro": "005583/2021",
+        "validade": "registro cancelado",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      }
+    ],
+    "F16 Wenzhou Chougkun": [
+      {
+        "familia": "1",
+        "registro": "015859/2024",
+        "validade": "9/30/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "2",
+        "registro": "015736/2024",
+        "validade": "9/30/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "3",
+        "registro": "015730/2024",
+        "validade": "9/30/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "4",
+        "registro": "015738/2024",
+        "validade": "9/30/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "5",
+        "registro": "009112/2025",
+        "validade": "8/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "6",
+        "registro": "009272/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "7",
+        "registro": "009842/2025",
+        "validade": "8/28/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "8",
+        "registro": "009342/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "9",
+        "registro": "009273/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "10",
+        "registro": "009343/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "11",
+        "registro": "010447/2025",
+        "validade": "9/10/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "12",
+        "registro": "009274/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "13",
+        "registro": "009111/2025",
+        "validade": "8/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "14",
+        "registro": "009275/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "15",
+        "registro": "009340/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "16",
+        "registro": "009276/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "17",
+        "registro": "009279/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "18",
+        "registro": "009280/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "19",
+        "registro": "009286/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "20",
+        "registro": "009231/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "21",
+        "registro": "009233/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "22",
+        "registro": "009114/2025",
+        "validade": "8/8/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "23",
+        "registro": "009235/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "24",
+        "registro": "009014/2025",
+        "validade": "8/6/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "25",
+        "registro": "009237/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "26",
+        "registro": "009012/2025",
+        "validade": "8/6/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "27",
+        "registro": "009716/2025",
+        "validade": "8/15/26",
+        "manutencao": ""
+      },
+      {
+        "familia": "28",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "29",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      },
+      {
+        "familia": "30",
+        "registro": "",
+        "validade": "",
+        "manutencao": ""
+      }
+    ]
+  }
+}
