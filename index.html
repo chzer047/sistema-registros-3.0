@@ -1,71 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Sistema</title>
+<title>Sistema de Registros</title>
 
 <style>
 body {
-  background:#0f0f0f;
-  color:#fff;
-  font-family:Arial;
-  text-align:center;
-  padding:40px;
+  background: #0b0b0b;
+  color: white;
+  font-family: Arial;
+  text-align: center;
 }
 
-input {
-  padding:12px;
-  border-radius:8px;
-  border:none;
-  width:300px;
+h2 {
+  margin-top: 30px;
+}
+
+.container {
+  margin-top: 30px;
 }
 
 button {
-  padding:12px;
-  border:none;
-  border-radius:8px;
-  margin-left:10px;
-  cursor:pointer;
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-#resultado {
-  margin-top:30px;
+button:hover {
+  background: #2a2a2a;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
 }
 </style>
-
 </head>
 
 <body>
 
-<div id="login">
-  <h2>🔒 Acesso restrito</h2>
-  <input type="password" id="senha" placeholder="Senha">
-  <button onclick="entrar()">Entrar</button>
-</div>
+<h2>📦 Sistema de Registros</h2>
 
-<div id="app" style="display:none;">
-  <h2>🔍 Consulta</h2>
-
-  <input id="busca" placeholder="ex: fam 1 bolsa fab2">
-  <button onclick="buscar()">Buscar</button>
-
-  <div id="resultado"></div>
-</div>
+<div id="tela"></div>
 
 <script>
-const SENHA = "123456";
+let banco = [];
 
-function entrar() {
-  if (document.getElementById("senha").value === SENHA) {
-    document.getElementById("login").style.display = "none";
-    document.getElementById("app").style.display = "block";
-  } else {
-    alert("Senha incorreta");
+// 🔥 CARREGAR TODOS OS CLIENTES AQUI
+const arquivos = [
+  "dados/bolsa.json"
+];
+
+// INICIO
+async function iniciar() {
+  for (let arq of arquivos) {
+    const res = await fetch(arq);
+    const json = await res.json();
+    banco.push(json);
   }
-}
-</script>
 
-<script src="script.js"></script>
+  mostrarClientes();
+}
+
+// =======================
+// CLIENTES
+// =======================
+function mostrarClientes() {
+  let html = "<h3>Escolha o Cliente</h3><div class='container'>";
+
+  banco.forEach((c, i) => {
+    html += `<button onclick="abrirFabricas(${i})">${c.cliente}</button>`;
+  });
+
+  html += "</div>";
+
+  document.getElementById("tela").innerHTML = html;
+}
+
+// =======================
+// FABRICAS
+// =======================
+function abrirFabricas(index) {
+  let cliente = banco[index];
+
+  let html = `
+    <h3>${cliente.cliente}</h3>
+    <button onclick="mostrarClientes()">⬅ Voltar</button>
+    <div class='container'>
+  `;
+
+  Object.keys(cliente.fabricas).forEach(f => {
+    html += `<button onclick="abrirFamilias(${index}, '${f}')">${f}</button>`;
+  });
+
+  html += "</div>";
+
+  document.getElementById("tela").innerHTML = html;
+}
+
+// =======================
+// FAMILIAS
+// =======================
+function abrirFamilias(index, fabrica) {
+  let cliente = banco[index];
+  let dados = cliente.fabricas[fabrica];
+
+  let html = `
+    <h3>${cliente.cliente}</h3>
+    <h4>${fabrica}</h4>
+    <button onclick="abrirFabricas(${index})">⬅ Voltar</button>
+  `;
+
+  dados.forEach(d => {
+    html += `
+      <div class="card">
+        <strong>🔢 Família:</strong> ${d.familia}<br>
+        <strong>📄 Registro:</strong> ${d.registro}<br>
+        <strong>📅 Validade:</strong> ${d.validade || "—"}<br>
+        <strong>🔧 Manutenção:</strong> ${d.manutencao || "—"}
+      </div>
+    `;
+  });
+
+  document.getElementById("tela").innerHTML = html;
+}
+
+iniciar();
+</script>
 
 </body>
 </html>
