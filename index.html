@@ -5,9 +5,32 @@
 <title>Sistema</title>
 
 <style>
-body { background:#0f0f0f; color:#fff; font-family:Arial; text-align:center; padding:40px;}
-input { padding:10px; border-radius:8px; border:none;}
-button { padding:10px; border:none; border-radius:8px;}
+body {
+  background:#0f0f0f;
+  color:#fff;
+  font-family:Arial;
+  text-align:center;
+  padding:40px;
+}
+
+input {
+  padding:12px;
+  border-radius:8px;
+  border:none;
+  width:300px;
+}
+
+button {
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  margin-left:10px;
+  cursor:pointer;
+}
+
+#resultado {
+  margin-top:30px;
+}
 </style>
 
 </head>
@@ -15,22 +38,22 @@ button { padding:10px; border:none; border-radius:8px;}
 <body>
 
 <div id="login">
-  <h2>Acesso restrito</h2>
+  <h2>🔒 Acesso restrito</h2>
   <input type="password" id="senha" placeholder="Senha">
   <button onclick="entrar()">Entrar</button>
 </div>
 
 <div id="app" style="display:none;">
-  <h2>Consulta</h2>
+  <h2>🔍 Consulta</h2>
 
-  <input id="busca" placeholder="familia 126 fabrica 2 bolsa">
+  <input id="busca" placeholder="ex: fam 1 bolsa fab2">
   <button onclick="buscar()">Buscar</button>
 
-  <pre id="resultado"></pre>
+  <div id="resultado"></div>
 </div>
 
 <script>
-const SENHA = "123456"; // TROCA ISSO
+const SENHA = "123456";
 
 function entrar() {
   if (document.getElementById("senha").value === SENHA) {
