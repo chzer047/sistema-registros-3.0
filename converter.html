@@ -2,64 +2,41 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Conversor Excel → JSON</title>
+<title>Conversor Excel</title>
 
 <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 
-<style>
-body {
-  font-family: Arial;
-  background: #0f0f0f;
-  color: #fff;
-  text-align: center;
-  padding: 40px;
-}
-
-pre {
-  margin-top: 30px;
-  text-align: left;
-  background: #1a1a1a;
-  padding: 20px;
-  border-radius: 10px;
-}
-</style>
 </head>
 
-<body>
+<body style="background:#0f0f0f;color:white;text-align:center;padding:40px;">
 
 <h2>📊 Converter Excel</h2>
 
-<input type="file" id="file" />
+<input type="file" id="file">
 
 <pre id="output"></pre>
 
 <script>
-document.getElementById('file').addEventListener('change', handleFile);
-
-function handleFile(e) {
-  const file = e.target.files[0];
+document.getElementById('file').addEventListener('change', e => {
   const reader = new FileReader();
 
-  reader.onload = function(evt) {
+  reader.onload = evt => {
     const data = new Uint8Array(evt.target.result);
-    const workbook = XLSX.read(data, { type: 'array' });
+    const wb = XLSX.read(data, {type:'array'});
 
-    const cliente = prompt("Nome do cliente (ex: BOLSA)").toUpperCase();
+    const cliente = prompt("Nome do cliente").toUpperCase();
 
-    let resultado = {
-      cliente: cliente,
-      fabricas: {}
-    };
+    let resultado = { cliente, fabricas:{} };
 
-    workbook.SheetNames.forEach(nomeAba => {
-      const worksheet = workbook.Sheets[nomeAba];
-      const json = XLSX.utils.sheet_to_json(worksheet);
+    wb.SheetNames.forEach(nome => {
+      const ws = wb.Sheets[nome];
+      const json = XLSX.utils.sheet_to_json(ws);
 
-      resultado.fabricas[nomeAba] = json.map(linha => ({
-        familia: String(linha.FAMILIA),
-        registro: String(linha.REGISTRO), // mantém exatamente como no Excel
-        validade: formatarData(linha.VALIDADE),
-        manutencao: String(linha["MANUTENÇÃO SOLICITADA"] || "")
+      resultado.fabricas[nome] = json.map(l => ({
+        familia: String(l.FAMILIA),
+        registro: String(l.REGISTRO),
+        validade: formatarData(l.VALIDADE),
+        manutencao: String(l["MANUTENÇÃO SOLICITADA"] || "")
       }));
     });
 
@@ -67,10 +44,9 @@ function handleFile(e) {
       JSON.stringify(resultado, null, 2);
   };
 
-  reader.readAsArrayBuffer(file);
-}
+  reader.readAsArrayBuffer(e.target.files[0]);
+});
 
-// FORMATA DATA CORRETAMENTE
 function formatarData(valor) {
   if (!valor) return "";
 
