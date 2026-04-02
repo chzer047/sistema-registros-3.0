@@ -1,126 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Conversor Excel</title>
-  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
-  <style>
-    body {
-      background: #0b0b0b;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px;
-    }
-
-    input {
-      margin: 20px 0;
-    }
-
-    pre {
-      background: #1a1a1a;
-      color: #fff;
-      text-align: left;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 1000px;
-      margin: 20px auto;
-      overflow: auto;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Conversor Excel</title>
+<script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+<style>
+body { background:#0b0b0b; color:white; text-align:center; font-family:Arial; padding:40px; }
+pre { background:#1a1a1a; padding:20px; border-radius:10px; text-align:left; max-width:1000px; margin:auto; }
+</style>
 </head>
+
 <body>
 
-  <h2>📊 Converter Excel para JSON</h2>
-  <input type="file" id="file" accept=".xlsx,.xls" />
-  <pre id="output"></pre>
+<h2>📊 Converter Excel</h2>
+<input type="file" id="file" />
 
-  <script>
-    document.getElementById("file").addEventListener("change", async (e) => {
-      const file = e.target.files[0];
-      if (!file) return;
+<pre id="out"></pre>
 
-      const cliente = prompt("Nome do cliente (ex: BOLSA)");
-      if (!cliente) return;
+<script>
+document.getElementById("file").addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  const cliente = prompt("Nome do cliente").toUpperCase();
 
-      const arrayBuffer = await file.arrayBuffer();
-      const workbook = XLSX.read(arrayBuffer, { type: "array" });
+  const data = await file.arrayBuffer();
+  const wb = XLSX.read(data);
 
-      const resultado = {
-        cliente: cliente.toUpperCase().trim(),
-        fabricas: {}
-      };
+  let resultado = { cliente, fabricas: {} };
 
-      workbook.SheetNames.forEach((nomeAba) => {
-        const ws = workbook.Sheets[nomeAba];
-        const linhas = XLSX.utils.sheet_to_json(ws, {
-          header: 1,
-          defval: ""
-        });
+  wb.SheetNames.forEach(nome => {
+    const ws = wb.Sheets[nome];
+    const json = XLSX.utils.sheet_to_json(ws, { raw: true });
 
-        if (!linhas.length) {
-          resultado.fabricas[nomeAba] = [];
-          return;
-        }
+    resultado.fabricas[nome] = json.map(l => ({
+      familia: String(l.FAMILIA ?? ""),
+      registro: String(l.REGISTRO ?? ""),
+      validade: formatarData(l.VALIDADE),
+      manutencao: String(l["MANUTENÇÃO SOLICITADA"] ?? "")
+    }));
+  });
 
-        const cabecalhos = linhas[0].map(h => String(h).trim().toUpperCase());
+  document.getElementById("out").textContent =
+    JSON.stringify(resultado, null, 2);
+});
 
-        const idxFamilia = cabecalhos.indexOf("FAMILIA");
-        const idxRegistro = cabecalhos.indexOf("REGISTRO");
-        const idxValidade = cabecalhos.indexOf("VALIDADE");
-        const idxManutencao = cabecalhos.indexOf("MANUTENÇÃO SOLICITADA");
+function formatarData(v) {
+  if (!v) return "";
 
-        const dados = [];
+  if (typeof v === "string") return v;
 
-        for (let i = 1; i < linhas.length; i++) {
-          const linha = linhas[i];
-          if (!linha || linha.every(v => String(v).trim() === "")) continue;
+  if (typeof v === "number") {
+    const d = XLSX.SSF.parse_date_code(v);
+    return `${String(d.d).padStart(2,"0")}/${String(d.m).padStart(2,"0")}/${d.y}`;
+  }
 
-          const validadeTexto = obterTextoDaCelula(ws, i + 1, idxValidade);
+  return "";
+}
+</script>
 
-          dados.push({
-            familia: idxFamilia >= 0 ? String(linha[idxFamilia] ?? "").trim() : "",
-            registro: idxRegistro >= 0 ? String(linha[idxRegistro] ?? "").trim() : "",
-            validade: validadeTexto,
-            manutencao: idxManutencao >= 0 ? String(linha[idxManutencao] ?? "").trim() : ""
-          });
-        }
-
-        resultado.fabricas[nomeAba] = dados;
-      });
-
-      document.getElementById("output").textContent = JSON.stringify(resultado, null, 2);
-    });
-
-    function obterTextoDaCelula(ws, rowIndex1Based, colIndexZeroBased) {
-      if (colIndexZeroBased < 0) return "";
-
-      const endereco = XLSX.utils.encode_cell({
-        r: rowIndex1Based - 1,
-        c: colIndexZeroBased
-      });
-
-      const celula = ws[endereco];
-      if (!celula) return "";
-
-      // PRIORIDADE 1: texto já exibido pelo Excel
-      if (celula.w != null && String(celula.w).trim() !== "") {
-        return String(celula.w).trim();
-      }
-
-      // PRIORIDADE 2: se vier Date
-      if (celula.v instanceof Date && !isNaN(celula.v)) {
-        const dia = String(celula.v.getDate()).padStart(2, "0");
-        const mes = String(celula.v.getMonth() + 1).padStart(2, "0");
-        const ano = celula.v.getFullYear();
-        return `${dia}/${mes}/${ano}`;
-      }
-
-      // PRIORIDADE 3: fallback
-      return String(celula.v ?? "").trim();
-    }
-  </script>
 </body>
 </html>
