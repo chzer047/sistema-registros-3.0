@@ -46,10 +46,15 @@ button {
 
 <script>
 let banco = [];
+let arquivos = [];
 
-const arquivos = [
-  "dados/bolsa.json"
-];
+// ===== CARREGAR LISTA AUTOMÁTICA =====
+async function carregarLista() {
+  const res = await fetch("dados/index.json");
+  const lista = await res.json();
+
+  arquivos = lista.map(nome => "dados/" + nome);
+}
 
 // ===== DATA =====
 function diasRestantes(dataStr) {
@@ -119,7 +124,7 @@ function abrirFabricas(i) {
   let c = banco[i];
 
   let html = `<h3>${c.cliente}</h3>
-  <button onclick="mostrarClientes()">⬅</button>`;
+  <button onclick="mostrarClientes()">⬅ Voltar</button>`;
 
   Object.keys(c.fabricas).forEach(f => {
     html += `<button onclick="abrirFamilias(${i}, '${f}')">${f}</button>`;
@@ -135,7 +140,7 @@ function abrirFamilias(i, f) {
 
   let html = `<h3>${c.cliente}</h3>
   <h4>${f}</h4>
-  <button onclick="abrirFabricas(${i})">⬅</button>`;
+  <button onclick="abrirFabricas(${i})">⬅ Voltar</button>`;
 
   dados.forEach(d => {
 
@@ -149,10 +154,10 @@ function abrirFamilias(i, f) {
 
     html += `
       <div class="card ${classe}">
-        Família: ${d.familia}<br>
-        Registro: ${d.registro}<br>
-        Validade: ${d.validade}<br>
-        Manutenção: ${d.manutencao || "—"}
+        <strong>Família:</strong> ${d.familia}<br>
+        <strong>Registro:</strong> ${d.registro}<br>
+        <strong>Validade:</strong> ${d.validade}<br>
+        <strong>Manutenção:</strong> ${d.manutencao || "—"}
       </div>
     `;
   });
@@ -162,6 +167,9 @@ function abrirFamilias(i, f) {
 
 // ===== INIT =====
 async function iniciar() {
+
+  await carregarLista();
+
   for (let arq of arquivos) {
     const res = await fetch(arq);
     const json = await res.json();
