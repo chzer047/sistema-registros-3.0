@@ -1,0 +1,13 @@
+{
+  "cliente": "BOLSA",
+  "fabricas": {
+    "Fabrica 2": [
+      {
+        "familia": "126",
+        "registro": "REG999",
+        "validade": "2027",
+        "manutencao": "SIM"
+      }
+    ]
+  }
+}
