@@ -1,12 +1,2914 @@
 {
   "cliente": "BOLSA",
   "fabricas": {
-    "Fabrica 2": [
+    "F01 - Belinda Toys Co., Ltd": [
       {
-        "familia": "126",
-        "registro": "REG999",
-        "validade": "2027",
-        "manutencao": "SIM"
+        "familia": 1,
+        "registro": " 004125/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 2,
+        "registro": "003980/2023"
+      },
+      {
+        "familia": 3,
+        "registro": "003978/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 4,
+        "registro": "004124/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 5,
+        "registro": "003887/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 6,
+        "registro": "003557/2023",
+        "validade": 46497
+      },
+      {
+        "familia": 7,
+        "registro": "004126/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 8,
+        "registro": "004129/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 9,
+        "registro": "004211/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 10,
+        "registro": "004159/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 11,
+        "registro": "003541/2023",
+        "validade": 46497
+      },
+      {
+        "familia": 12,
+        "registro": "004264/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 13,
+        "registro": "003981/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 14,
+        "registro": "003982/2023"
+      },
+      {
+        "familia": 15,
+        "registro": "003889/2023"
+      },
+      {
+        "familia": 16,
+        "registro": "003888/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 17,
+        "registro": "003985/2023"
+      },
+      {
+        "familia": 18,
+        "registro": "004263/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 19,
+        "registro": "004273/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 20,
+        "registro": "004277/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 21,
+        "registro": " 003979/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 22,
+        "registro": "004170/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 23,
+        "registro": "004212/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 24,
+        "registro": "004278/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 25,
+        "registro": " 004254/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 26,
+        "registro": "003891/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 27,
+        "registro": "004172/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 28,
+        "registro": "003986/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 29,
+        "registro": "004132/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 30,
+        "registro": "004177/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 31,
+        "registro": "004280/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 32,
+        "registro": "004256/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 33,
+        "registro": "004257/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 34,
+        "registro": "003987/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 35,
+        "registro": "004281/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 36,
+        "registro": "003983/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 37,
+        "registro": "004283/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 38,
+        "registro": "003988/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 39,
+        "registro": "004134/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 40,
+        "registro": "003989/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 41,
+        "registro": "003559/2023",
+        "validade": 46502
+      },
+      {
+        "familia": 42,
+        "registro": " 004285/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 43,
+        "registro": "004288/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 44,
+        "registro": "004290/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 45,
+        "registro": "004406/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 46,
+        "registro": "004295/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 47,
+        "registro": "004296/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 48,
+        "registro": "004297/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 49,
+        "registro": "003558/2023",
+        "validade": 46497
+      },
+      {
+        "familia": 50,
+        "registro": "004298/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 51,
+        "registro": "004180/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 52,
+        "registro": "004137/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 53,
+        "registro": "004138/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 54,
+        "registro": " 004261/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 55,
+        "registro": "004300/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 56,
+        "registro": "004139/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 57,
+        "registro": "003560/2023",
+        "validade": 46497
+      },
+      {
+        "familia": 58,
+        "registro": "004433/2023",
+        "validade": 46510
+      },
+      {
+        "familia": 59,
+        "registro": "004301/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 60,
+        "registro": "004302/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 61,
+        "registro": "004303/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 62,
+        "registro": "004258/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 63,
+        "registro": "003905/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 64,
+        "registro": "004186/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 65,
+        "registro": " 003902/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 66,
+        "registro": " 004305/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 67,
+        "registro": "003561/2023",
+        "validade": 46497
+      },
+      {
+        "familia": 68,
+        "registro": "004306/2023",
+        "validade": 46509
+      },
+      {
+        "familia": 69,
+        "registro": "003990/2023",
+        "validade": 46510
+      },
+      {
+        "familia": 70,
+        "registro": "005055/2023",
+        "validade": 46532
+      },
+      {
+        "familia": 71,
+        "registro": "005446/2023",
+        "validade": 46175
+      },
+      {
+        "familia": 72,
+        "registro": "005447/2023",
+        "validade": 46175
+      },
+      {
+        "familia": 73,
+        "registro": "004307/2023",
+        "validade": 46504
+      },
+      {
+        "familia": 74,
+        "registro": "006279/2023",
+        "validade": 46517
+      },
+      {
+        "familia": 75,
+        "registro": "004308/2023",
+        "validade": 46504
+      },
+      {
+        "familia": 76,
+        "registro": "004187/2023",
+        "validade": 46504
+      },
+      {
+        "familia": 77,
+        "registro": "004309/2023",
+        "validade": 46504
+      },
+      {
+        "familia": 78,
+        "registro": "004310/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 79,
+        "registro": "004311/2023",
+        "validade": 46510
+      },
+      {
+        "familia": 80,
+        "registro": "004312/2023",
+        "validade": 46510
+      },
+      {
+        "familia": 81,
+        "registro": "005450/2023",
+        "validade": 46175
+      },
+      {
+        "familia": 82,
+        "registro": "004434/2023",
+        "validade": 46518
+      },
+      {
+        "familia": 83,
+        "registro": "005068/2023",
+        "validade": 46531
+      },
+      {
+        "familia": 84,
+        "registro": "005070/2023",
+        "validade": 46531
+      },
+      {
+        "familia": 85,
+        "registro": "004436/2023",
+        "validade": 46519
+      },
+      {
+        "familia": 86,
+        "registro": "005631/2023"
+      },
+      {
+        "familia": 87,
+        "registro": "005630/2023",
+        "validade": 46538
+      },
+      {
+        "familia": 88,
+        "registro": "006772/2023",
+        "validade": 46182
+      },
+      {
+        "familia": 89,
+        "registro": "005629/2023",
+        "validade": 46538
+      },
+      {
+        "familia": 90,
+        "registro": " 006278/2023",
+        "validade": 46187
+      },
+      {
+        "familia": 91,
+        "registro": "005451/2023",
+        "validade": 46537
+      },
+      {
+        "familia": 92,
+        "registro": "005271/2023",
+        "validade": 46536
+      },
+      {
+        "familia": 93,
+        "registro": "006640/2023",
+        "validade": 46194
+      },
+      {
+        "familia": 94,
+        "registro": "006641/2023",
+        "validade": 46200
+      },
+      {
+        "familia": 95,
+        "registro": "006546/2023",
+        "validade": 46200
+      },
+      {
+        "familia": 96,
+        "registro": "005627/2023",
+        "validade": 46178
+      },
+      {
+        "familia": 97,
+        "registro": "006645/2023",
+        "validade": 46200
+      },
+      {
+        "familia": 98,
+        "registro": "005624/2023",
+        "validade": 46178
+      },
+      {
+        "familia": 99,
+        "registro": "006647/2023",
+        "validade": 46200
+      },
+      {
+        "familia": 100,
+        "registro": "006771/2023",
+        "validade": 46200
+      },
+      {
+        "familia": 101,
+        "registro": "005766/2023",
+        "validade": 46182
+      },
+      {
+        "familia": 102,
+        "registro": "005760/2023",
+        "validade": 46182
+      },
+      {
+        "familia": 103,
+        "registro": "005765/2023",
+        "validade": 46186
+      },
+      {
+        "familia": 104,
+        "registro": "008063/2023",
+        "validade": 46192
+      },
+      {
+        "familia": 105,
+        "registro": "006282/2023",
+        "validade": 46187
+      },
+      {
+        "familia": 106,
+        "registro": "006281/2023",
+        "validade": 46187
+      },
+      {
+        "familia": 107,
+        "registro": "006139/2023",
+        "validade": 46192
+      },
+      {
+        "familia": 108,
+        "registro": "006137/2023",
+        "validade": 46192
+      },
+      {
+        "familia": 109,
+        "registro": "005764/2023",
+        "validade": 46186
+      },
+      {
+        "familia": 110,
+        "registro": "006653/2023",
+        "validade": 46193
+      },
+      {
+        "familia": 111,
+        "registro": "007016/2023",
+        "validade": 46194
+      },
+      {
+        "familia": 112,
+        "registro": "007017/2023"
+      },
+      {
+        "familia": 113,
+        "registro": "007019/2023",
+        "validade": 46194
+      },
+      {
+        "familia": 114,
+        "registro": "006655/2023",
+        "validade": 46201
+      },
+      {
+        "familia": 115,
+        "registro": "006657/2023",
+        "validade": 46201
+      },
+      {
+        "familia": 116,
+        "registro": "008064/2023",
+        "validade": 46217
+      },
+      {
+        "familia": 117,
+        "registro": "007695/2023",
+        "validade": 46215
+      },
+      {
+        "familia": 118,
+        "registro": "008067/2023",
+        "validade": 46220
+      },
+      {
+        "familia": 119,
+        "registro": "008068/2023",
+        "validade": 46215
+      },
+      {
+        "familia": 120,
+        "registro": "008071/2023",
+        "validade": 46221
+      },
+      {
+        "familia": 121,
+        "registro": "008072/2023",
+        "validade": 46221
+      },
+      {
+        "familia": 122,
+        "registro": "008073/2023",
+        "validade": 46221
+      },
+      {
+        "familia": 123,
+        "registro": "008421/2023",
+        "validade": 46221
+      },
+      {
+        "familia": 124,
+        "registro": "009280/2023",
+        "validade": 46264
+      },
+      {
+        "familia": 125,
+        "registro": "009540/2023",
+        "validade": 46266
+      },
+      {
+        "familia": 126,
+        "registro": "008423/2023",
+        "validade": 46238
+      },
+      {
+        "familia": 127,
+        "registro": "008424/2023",
+        "validade": 46238
+      },
+      {
+        "familia": 128,
+        "registro": "008425/2023",
+        "validade": 46243
+      },
+      {
+        "familia": 129,
+        "registro": "009283/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 130,
+        "registro": "009281/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 131,
+        "registro": "009282/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 132,
+        "registro": "009284/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 133,
+        "registro": "009285/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 134,
+        "registro": "009286/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 135,
+        "registro": "009288/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 136,
+        "registro": "011216/2023",
+        "validade": 46332
+      },
+      {
+        "familia": 137,
+        "registro": "010584/2023",
+        "validade": 46298
+      },
+      {
+        "familia": 138,
+        "registro": "008426/2023",
+        "validade": 46244
+      },
+      {
+        "familia": 139,
+        "registro": "004828/2025",
+        "validade": 46509
+      },
+      {
+        "familia": 140,
+        "registro": "009681/2023",
+        "validade": 46284
+      },
+      {
+        "familia": 141,
+        "registro": "010586/2023",
+        "validade": 46297
+      },
+      {
+        "familia": 142,
+        "registro": "009682/2023",
+        "validade": 46284
+      },
+      {
+        "familia": 143,
+        "registro": "009684/2023",
+        "validade": 46284
+      },
+      {
+        "familia": 144,
+        "registro": "009685/2023",
+        "validade": 46284
+      },
+      {
+        "familia": 145,
+        "registro": "009541/2023",
+        "validade": 46258
+      },
+      {
+        "familia": 146,
+        "registro": "010583/2023",
+        "validade": 46298
+      },
+      {
+        "familia": 147,
+        "registro": "009289/2023",
+        "validade": 46266
+      },
+      {
+        "familia": 148,
+        "registro": "009542/2023",
+        "validade": 46273
+      },
+      {
+        "familia": 149,
+        "registro": "009543/2023",
+        "validade": 46278
+      },
+      {
+        "familia": 150,
+        "registro": "009399/2023",
+        "validade": 46273
+      },
+      {
+        "familia": 151,
+        "registro": "009544/2023",
+        "validade": 46273
+      },
+      {
+        "familia": 152,
+        "registro": "009290/2023",
+        "validade": 46264
+      },
+      {
+        "familia": 153,
+        "registro": "009686/2023",
+        "validade": 46285
+      },
+      {
+        "familia": 154,
+        "registro": "009689/2023",
+        "validade": 46279
+      },
+      {
+        "familia": 155,
+        "registro": "004829/2025",
+        "validade": 46509
+      },
+      {
+        "familia": 156,
+        "registro": "010594/2023",
+        "validade": 46306
+      },
+      {
+        "familia": 157,
+        "registro": "010593/2023",
+        "validade": 46306
+      },
+      {
+        "familia": 158,
+        "registro": "010585/2023",
+        "validade": 46286
+      },
+      {
+        "familia": 159,
+        "registro": "009690/2023",
+        "validade": 46279
+      },
+      {
+        "familia": 160,
+        "registro": "011288/2023",
+        "validade": 46333
+      },
+      {
+        "familia": 161,
+        "registro": "001820/2024",
+        "validade": 46424
+      },
+      {
+        "familia": 162,
+        "registro": "010559/2023",
+        "validade": 46314
+      },
+      {
+        "familia": 163,
+        "registro": "010561/2023",
+        "validade": 46314
+      },
+      {
+        "familia": 164,
+        "registro": "010590/2023",
+        "validade": 46292
+      },
+      {
+        "familia": 165,
+        "registro": "010588/2023",
+        "validade": 46286
+      },
+      {
+        "familia": 166,
+        "registro": "010589/2023",
+        "validade": 46286
+      },
+      {
+        "familia": 167,
+        "registro": "010591/2023",
+        "validade": 46291
+      },
+      {
+        "familia": 168,
+        "registro": "000211/2024",
+        "validade": 46314
+      },
+      {
+        "familia": 169,
+        "registro": "011290/2023",
+        "validade": 46332
+      },
+      {
+        "familia": 170,
+        "registro": "012287/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 171,
+        "registro": "012288/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 172,
+        "registro": "012290/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 173,
+        "registro": "012291/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 174,
+        "registro": "012293/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 175,
+        "registro": "012294/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 176,
+        "registro": "012295/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 177,
+        "registro": "011289/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 178,
+        "registro": "012296/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 179,
+        "registro": "012297/2023",
+        "validade": 46363
+      },
+      {
+        "familia": 180,
+        "registro": "011217/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 181,
+        "registro": "011218/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 182,
+        "registro": "011219/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 183,
+        "registro": "011220/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 184,
+        "registro": "011221/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 185,
+        "registro": "011224/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 186,
+        "registro": "011226/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 187,
+        "registro": "011227/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 188,
+        "registro": "011228/2023",
+        "validade": 46326
+      },
+      {
+        "familia": 189,
+        "registro": "000083/2024",
+        "validade": 46361
+      },
+      {
+        "familia": 190,
+        "registro": "000086/2024",
+        "validade": 46361
+      },
+      {
+        "familia": 191,
+        "registro": "000087/2024",
+        "validade": 46361
+      },
+      {
+        "familia": 192,
+        "registro": "001132/2024",
+        "validade": 46384
+      },
+      {
+        "familia": 193,
+        "registro": "001822/2024",
+        "validade": 46424
+      },
+      {
+        "familia": 194,
+        "registro": "001531/2024",
+        "validade": 46412
+      },
+      {
+        "familia": 195,
+        "registro": "001882/2024",
+        "validade": 46424
+      },
+      {
+        "familia": 196,
+        "registro": "001884/2024",
+        "validade": 46424
+      },
+      {
+        "familia": 197,
+        "registro": "002371/2024",
+        "validade": 46439
+      },
+      {
+        "familia": 198,
+        "registro": "007419/2024",
+        "validade": 46450
+      },
+      {
+        "familia": 199,
+        "registro": "004804/2024",
+        "validade": 46479
+      },
+      {
+        "familia": 200,
+        "registro": "004808/2024",
+        "validade": 46479
+      },
+      {
+        "familia": 201,
+        "registro": "004809/2024",
+        "validade": 46479
+      },
+      {
+        "familia": 202,
+        "registro": "004811/2024",
+        "validade": 46479
+      },
+      {
+        "familia": 203,
+        "registro": "006699/2024",
+        "validade": 46502
+      },
+      {
+        "familia": 204,
+        "registro": "006713/2024",
+        "validade": 46502
+      },
+      {
+        "familia": 205,
+        "registro": "006715/2024",
+        "validade": 46502
+      },
+      {
+        "familia": 206,
+        "registro": "013319/2025",
+        "validade": 46340
+      }
+    ],
+    "F02 - Shao Guan Early Light Int": [
+      {
+        "familia": 1,
+        "registro": " 003563/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 2,
+        "registro": "003565/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 3,
+        "registro": "003680/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 4,
+        "registro": "004140/2023"
+      },
+      {
+        "familia": 5,
+        "registro": "005337/2023",
+        "validade": 46537
+      },
+      {
+        "familia": 6,
+        "registro": "003885/2023",
+        "validade": 46505
+      },
+      {
+        "familia": 7,
+        "registro": "005794/2023",
+        "validade": 46178
+      },
+      {
+        "familia": 8,
+        "registro": "008928/2023",
+        "validade": 46235
+      },
+      {
+        "familia": 9,
+        "registro": "008727/2023",
+        "validade": 46249
+      },
+      {
+        "familia": 10,
+        "registro": "009691/2023",
+        "validade": 46273
+      },
+      {
+        "familia": 11,
+        "registro": "010248/2023",
+        "validade": 46299
+      },
+      {
+        "familia": 12,
+        "registro": "010592/2023",
+        "validade": 46290
+      },
+      {
+        "familia": 13,
+        "registro": "005986/2024",
+        "validade": 46447
+      },
+      {
+        "familia": 14,
+        "registro": "002886/2024",
+        "validade": 46447
+      },
+      {
+        "familia": 15,
+        "registro": "008252/2024"
+      },
+      {
+        "familia": 16,
+        "registro": "008203/2024",
+        "validade": 46530
+      },
+      {
+        "familia": 17,
+        "registro": "010799/2024",
+        "validade": 46186
+      },
+      {
+        "familia": 18,
+        "registro": "011925/2024",
+        "validade": 46205
+      },
+      {
+        "familia": 19,
+        "registro": "017833/2024",
+        "validade": 46306
+      },
+      {
+        "familia": 20,
+        "registro": "015873/2024",
+        "validade": 46296
+      },
+      {
+        "familia": 21,
+        "registro": "017724/2024",
+        "validade": 46337
+      },
+      {
+        "familia": 22,
+        "registro": "003591/2025",
+        "validade": 46456
+      },
+      {
+        "familia": 23,
+        "registro": "003736/2025",
+        "validade": 46484
+      },
+      {
+        "familia": 24,
+        "registro": "004866/2025",
+        "validade": 46507
+      },
+      {
+        "familia": 25,
+        "registro": "004868/2025",
+        "validade": 46507
+      },
+      {
+        "familia": 26,
+        "registro": "004869/2025",
+        "validade": 46507
+      },
+      {
+        "familia": 27,
+        "registro": "004871/2025",
+        "validade": 46507
+      },
+      {
+        "familia": 28,
+        "registro": "pulou",
+        "validade": "X"
+      },
+      {
+        "familia": 29,
+        "registro": "006838/2025",
+        "validade": 46196
+      },
+      {
+        "familia": 30,
+        "registro": "011302/2025",
+        "validade": 46245
+      },
+      {
+        "familia": 31,
+        "registro": "011599/2025",
+        "validade": 46296
+      },
+      {
+        "familia": 32,
+        "registro": "010510/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 33,
+        "registro": "011312/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 34,
+        "registro": "011309/2025",
+        "validade": 46290
+      },
+      {
+        "familia": 35,
+        "registro": "012704/2025"
+      },
+      {
+        "familia": 36
+      }
+    ],
+    "F03 - Suzhou Gentle Treasure To": [
+      {
+        "familia": 1,
+        "registro": "003682/2023",
+        "validade": 46501
+      },
+      {
+        "familia": 2,
+        "registro": "003683/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 3,
+        "registro": "003685/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 4,
+        "registro": "003687/2023",
+        "validade": 46502
+      },
+      {
+        "familia": 5,
+        "registro": "003688/2023",
+        "validade": 46501
+      },
+      {
+        "familia": 6,
+        "registro": "003689/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 7,
+        "registro": "005533/2023",
+        "validade": 46523
+      },
+      {
+        "familia": 8,
+        "registro": "006280/2023",
+        "validade": 46187
+      },
+      {
+        "familia": 9,
+        "registro": "006773/2023",
+        "validade": 46209
+      },
+      {
+        "familia": 10,
+        "registro": "006774/2023",
+        "validade": 46209
+      },
+      {
+        "familia": 11,
+        "registro": "006775/2023",
+        "validade": 46209
+      },
+      {
+        "familia": 12,
+        "registro": "006776/2023",
+        "validade": 46209
+      },
+      {
+        "familia": 13,
+        "registro": "008428/2023",
+        "validade": 46220
+      },
+      {
+        "familia": 14,
+        "registro": "008429/2023",
+        "validade": 46235
+      },
+      {
+        "familia": 15,
+        "registro": "008496/2023"
+      },
+      {
+        "familia": 16,
+        "registro": "009292/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 17,
+        "registro": "008728/2023",
+        "validade": 46249
+      },
+      {
+        "familia": 18,
+        "registro": "pulou",
+        "validade": "X"
+      },
+      {
+        "familia": 19,
+        "registro": "009692/2023",
+        "validade": 46269
+      },
+      {
+        "familia": 20,
+        "registro": "009699/2023",
+        "validade": 46263
+      },
+      {
+        "familia": 21,
+        "registro": "009926/2023",
+        "validade": 46290
+      },
+      {
+        "familia": 22,
+        "registro": "010556/2023",
+        "validade": 46308
+      },
+      {
+        "familia": 23,
+        "registro": "001046/2024",
+        "validade": 46361
+      },
+      {
+        "familia": 24,
+        "registro": "001048/2024",
+        "validade": 46361
+      },
+      {
+        "familia": 25,
+        "registro": "000487/2024",
+        "validade": 46363
+      },
+      {
+        "familia": 26,
+        "registro": "010331/2024",
+        "validade": 46187
+      },
+      {
+        "familia": 27,
+        "registro": "010334/2024",
+        "validade": 46191
+      },
+      {
+        "familia": 28,
+        "registro": "014465/2024",
+        "validade": 46232
+      },
+      {
+        "familia": 29,
+        "registro": "014644/2024",
+        "validade": 46267
+      },
+      {
+        "familia": 30,
+        "registro": "pulou",
+        "validade": "X"
+      },
+      {
+        "familia": 31,
+        "registro": "015413/2024",
+        "validade": 46277
+      },
+      {
+        "familia": 32,
+        "registro": "014636/2024",
+        "validade": 46268
+      },
+      {
+        "familia": 33,
+        "registro": "014776/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 34,
+        "registro": "015689/2024",
+        "validade": 46291
+      },
+      {
+        "familia": 35,
+        "registro": "pulou",
+        "validade": "X"
+      },
+      {
+        "familia": 36,
+        "registro": "000866/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 37,
+        "registro": "002145/2025",
+        "validade": 46527
+      },
+      {
+        "familia": 38,
+        "registro": "003242/2025",
+        "validade": 46463
+      },
+      {
+        "familia": 39,
+        "registro": "003454/2025",
+        "validade": 46472
+      },
+      {
+        "familia": 40,
+        "registro": "001436/2026",
+        "validade": 46414
+      },
+      {
+        "familia": 41,
+        "registro": "000692/2026",
+        "validade": 46395
+      },
+      {
+        "familia": 42,
+        "registro": "007420/2025",
+        "validade": 46204
+      },
+      {
+        "familia": 43,
+        "registro": "007419/2025",
+        "validade": 46204
+      },
+      {
+        "familia": 44,
+        "registro": "011339/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 45,
+        "registro": "011994/2025",
+        "validade": 46310
+      },
+      {
+        "familia": 46
+      },
+      {
+        "familia": 47
+      },
+      {
+        "familia": 48
+      },
+      {
+        "familia": 49
+      },
+      {
+        "familia": 50
+      },
+      {
+        "familia": 51
+      },
+      {
+        "familia": 52
+      },
+      {
+        "familia": 53
+      },
+      {
+        "familia": 54
+      },
+      {
+        "familia": 55
+      },
+      {
+        "familia": 56
+      },
+      {
+        "familia": 57
+      },
+      {
+        "familia": 58
+      },
+      {
+        "familia": 59
+      },
+      {
+        "familia": 60
+      },
+      {
+        "familia": 61
+      },
+      {
+        "familia": 62
+      },
+      {
+        "familia": 63
+      },
+      {
+        "familia": 64
+      },
+      {
+        "familia": 65
+      },
+      {
+        "familia": 66
+      },
+      {
+        "familia": 67
+      },
+      {
+        "familia": 68
+      },
+      {
+        "familia": 69
+      },
+      {
+        "familia": 70
+      }
+    ],
+    "F04 - Bin Yuan Plastic Toys Fac": [
+      {
+        "familia": 1,
+        "registro": "004845/2023",
+        "validade": 46496
+      },
+      {
+        "familia": 2,
+        "registro": "004846/2023",
+        "validade": 46504
+      },
+      {
+        "familia": 3,
+        "registro": "004847/2023",
+        "validade": 46529
+      },
+      {
+        "familia": 4,
+        "registro": "004848/2023",
+        "validade": 46529
+      },
+      {
+        "familia": 5,
+        "registro": "009701/2023",
+        "validade": 46263
+      },
+      {
+        "familia": 6,
+        "registro": "014886/2024",
+        "validade": 46232
+      },
+      {
+        "familia": 7,
+        "registro": "008799/2025",
+        "validade": 46238
+      },
+      {
+        "familia": 8,
+        "registro": "011319/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 9,
+        "registro": "014498/2025",
+        "validade": 46357
+      },
+      {
+        "familia": 10
+      },
+      {
+        "familia": 11
+      },
+      {
+        "familia": 12
+      },
+      {
+        "familia": 13
+      },
+      {
+        "familia": 14
+      },
+      {
+        "familia": 15
+      },
+      {
+        "familia": 16
+      },
+      {
+        "familia": 17
+      },
+      {
+        "familia": 18
+      },
+      {
+        "familia": 19
+      },
+      {
+        "familia": 20
+      }
+    ],
+    "F05 - Wenzhou Chongkun printing": [
+      {
+        "familia": 1,
+        "registro": "010581/2023",
+        "validade": 46311
+      },
+      {
+        "familia": 2,
+        "registro": "010582/2023",
+        "validade": 46311
+      },
+      {
+        "familia": 3,
+        "registro": "011924/2024",
+        "validade": 46206
+      },
+      {
+        "familia": 4,
+        "registro": "008797/2024",
+        "validade": 46534
+      },
+      {
+        "familia": 5,
+        "registro": "011921/2024",
+        "validade": 46198
+      },
+      {
+        "familia": 6,
+        "registro": "011922/2024",
+        "validade": 46199
+      },
+      {
+        "familia": 7,
+        "registro": "012743/2024",
+        "validade": 46228
+      },
+      {
+        "familia": 8,
+        "registro": "014025/2024",
+        "validade": 46260
+      },
+      {
+        "familia": 9,
+        "registro": "016633/2024",
+        "validade": 46316
+      },
+      {
+        "familia": 10,
+        "registro": "016623/2024",
+        "validade": 46316
+      },
+      {
+        "familia": 11,
+        "registro": "016642/2024",
+        "validade": 46509
+      },
+      {
+        "familia": 12,
+        "registro": "016645/2024",
+        "validade": 46316
+      },
+      {
+        "familia": 13,
+        "registro": "016444/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 14,
+        "registro": "016448/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 15,
+        "registro": "016450/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 16,
+        "registro": "016451/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 17,
+        "registro": "016454/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 18,
+        "registro": "016457/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 19,
+        "registro": "CLIENTE CANCELOU "
+      },
+      {
+        "familia": 20,
+        "registro": "016466/2024",
+        "validade": 46311
+      },
+      {
+        "familia": 21,
+        "registro": "016643/2024",
+        "validade": 46316
+      },
+      {
+        "familia": 22,
+        "registro": "019068/2024",
+        "validade": 46369
+      },
+      {
+        "familia": 23,
+        "registro": "000263/2025",
+        "validade": 46393
+      },
+      {
+        "familia": 24,
+        "registro": "018546/2024",
+        "validade": 46359
+      },
+      {
+        "familia": 25,
+        "registro": "018548/2024",
+        "validade": 46359
+      },
+      {
+        "familia": 26,
+        "registro": "000096/2025",
+        "validade": 46367
+      },
+      {
+        "familia": 27,
+        "registro": "000434/2025",
+        "validade": 46400
+      },
+      {
+        "familia": 28,
+        "registro": "001394/2025",
+        "validade": 46418
+      },
+      {
+        "familia": 29,
+        "registro": "000835/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 30,
+        "registro": "000872/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 31,
+        "registro": "000871/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 32,
+        "registro": "002932/2025",
+        "validade": 46458
+      },
+      {
+        "familia": 33,
+        "registro": "003248/2025",
+        "validade": 46470
+      },
+      {
+        "familia": 34,
+        "registro": "003249/2025",
+        "validade": 46470
+      },
+      {
+        "familia": 35,
+        "registro": "003550/2025",
+        "validade": 46470
+      },
+      {
+        "familia": 36,
+        "registro": "003251/2025",
+        "validade": 46470
+      },
+      {
+        "familia": 37,
+        "registro": "003252/2025",
+        "validade": 46470
+      },
+      {
+        "familia": 38,
+        "registro": "006609/2025",
+        "validade": 46501
+      },
+      {
+        "familia": 39,
+        "registro": "007096/2025",
+        "validade": 46198
+      },
+      {
+        "familia": 40,
+        "registro": "007015/2025",
+        "validade": 46196
+      },
+      {
+        "familia": 41,
+        "registro": "007019/2025",
+        "validade": 46193
+      },
+      {
+        "familia": 42,
+        "registro": "008800/2025",
+        "validade": 46527
+      },
+      {
+        "familia": 43,
+        "registro": "012497/2025",
+        "validade": 46316,
+        "manutencao": "PROPOSTA 3870625"
+      },
+      {
+        "familia": 44,
+        "registro": "010784/2025",
+        "validade": 46284
+      },
+      {
+        "familia": 45,
+        "registro": "010785/2025",
+        "validade": 46284
+      },
+      {
+        "familia": 46,
+        "registro": "010788/2025",
+        "validade": 46284
+      },
+      {
+        "familia": 47,
+        "registro": "010791/2025",
+        "validade": 46284
+      },
+      {
+        "familia": 48,
+        "registro": "010794/2025",
+        "validade": 46284
+      },
+      {
+        "familia": 49,
+        "registro": "010799/2025",
+        "validade": 46284
+      },
+      {
+        "familia": 50,
+        "registro": "011299/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 51,
+        "registro": "011297/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 52,
+        "registro": "011289/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 53,
+        "registro": "010448/2025",
+        "validade": 46275
+      },
+      {
+        "familia": 54,
+        "registro": "012482/2025",
+        "validade": 46316
+      },
+      {
+        "familia": 55,
+        "registro": "012486/2025",
+        "validade": 46316
+      },
+      {
+        "familia": 56,
+        "registro": "012487/2025",
+        "validade": 46316
+      },
+      {
+        "familia": 57,
+        "registro": "012489/2025",
+        "validade": 46316
+      },
+      {
+        "familia": 58,
+        "registro": "009493/2025",
+        "validade": 46254
+      },
+      {
+        "familia": 59,
+        "registro": "011119/2025",
+        "validade": 46289
+      },
+      {
+        "familia": 60,
+        "registro": "012492/2025",
+        "validade": 46316
+      },
+      {
+        "familia": 61,
+        "registro": "010446/2025",
+        "validade": 46289
+      },
+      {
+        "familia": 62,
+        "registro": "011308/2025",
+        "validade": 46295
+      },
+      {
+        "familia": 63,
+        "registro": "011118/2025",
+        "validade": 46287
+      },
+      {
+        "familia": 64,
+        "registro": "011600/2025",
+        "validade": 46297
+      },
+      {
+        "familia": 65,
+        "registro": "011602/2025",
+        "validade": 46297
+      }
+    ],
+    "F06 Caili Eletronic (Shenzhen)": [
+      {
+        "familia": 1,
+        "registro": "005571/2024",
+        "validade": 46493
+      },
+      {
+        "familia": 2,
+        "registro": "010320/2024",
+        "validade": 46190
+      },
+      {
+        "familia": 3,
+        "registro": "005572/2024",
+        "validade": 46493
+      },
+      {
+        "familia": 4,
+        "registro": "008835/2024",
+        "validade": 46534
+      },
+      {
+        "familia": 5,
+        "registro": "010322/2024",
+        "validade": 46191
+      },
+      {
+        "familia": 6,
+        "registro": "010324/2024",
+        "validade": 46184
+      },
+      {
+        "familia": 7,
+        "registro": "010326/2024",
+        "validade": 46184
+      },
+      {
+        "familia": 8,
+        "registro": "015523/2024",
+        "validade": 46284
+      },
+      {
+        "familia": 9,
+        "registro": "015524/2024",
+        "validade": 46284
+      },
+      {
+        "familia": 10,
+        "registro": "011917/2024",
+        "validade": 46198
+      },
+      {
+        "familia": 11,
+        "registro": "008837/2024",
+        "validade": 46530
+      },
+      {
+        "familia": 12,
+        "registro": "008839/2024",
+        "validade": 46530
+      },
+      {
+        "familia": 13,
+        "registro": "010328/2024",
+        "validade": 46185
+      },
+      {
+        "familia": 14,
+        "registro": "011707/2025",
+        "validade": 46301
+      },
+      {
+        "familia": 15,
+        "registro": "008840/2024"
+      },
+      {
+        "familia": 16,
+        "registro": "011919/2024",
+        "validade": 46198
+      },
+      {
+        "familia": 17,
+        "registro": "008025/2024",
+        "validade": 46527
+      },
+      {
+        "familia": 18,
+        "registro": " 010329/2024",
+        "validade": 46187
+      },
+      {
+        "familia": 19,
+        "registro": "010330/2024",
+        "validade": 46187
+      },
+      {
+        "familia": 20,
+        "registro": "015872/2024",
+        "validade": 46296
+      },
+      {
+        "familia": 21,
+        "registro": "008841/2024",
+        "validade": 46530
+      },
+      {
+        "familia": 22,
+        "registro": "009626/2024",
+        "validade": 46177
+      },
+      {
+        "familia": 23,
+        "registro": "009627/2024",
+        "validade": 46177
+      },
+      {
+        "familia": 24,
+        "registro": "012186/2024",
+        "validade": 46204
+      },
+      {
+        "familia": 25,
+        "registro": "012218/2024",
+        "validade": 46204
+      },
+      {
+        "familia": 26,
+        "registro": "009388/2024",
+        "validade": 46184
+      },
+      {
+        "familia": 27,
+        "registro": "011910/2024",
+        "validade": 46199
+      },
+      {
+        "familia": 28,
+        "registro": "011909/2024",
+        "validade": 46199
+      },
+      {
+        "familia": 29,
+        "registro": "014228/2024",
+        "validade": 46256
+      },
+      {
+        "familia": 30,
+        "registro": "011920/2024",
+        "validade": 46290
+      },
+      {
+        "familia": 31,
+        "registro": "014638/2024",
+        "validade": 46263
+      },
+      {
+        "familia": 32,
+        "registro": "014639/2024",
+        "validade": 46263
+      },
+      {
+        "familia": 33,
+        "registro": "012913/2024",
+        "validade": 46227
+      },
+      {
+        "familia": 34,
+        "registro": "012187/2024",
+        "validade": 46204
+      },
+      {
+        "familia": 35,
+        "registro": "012219/2024",
+        "validade": 46204
+      },
+      {
+        "familia": 36,
+        "registro": "012442/2024",
+        "validade": 46220
+      },
+      {
+        "familia": 37,
+        "registro": "012932/2024",
+        "validade": 46229
+      },
+      {
+        "familia": 38,
+        "registro": "012871/2024",
+        "validade": 46229
+      },
+      {
+        "familia": 39,
+        "registro": "012872/2024",
+        "validade": 46229
+      },
+      {
+        "familia": 40,
+        "registro": "013878/2024",
+        "validade": 46246
+      },
+      {
+        "familia": 41,
+        "registro": "012873/2024",
+        "validade": 46229
+      },
+      {
+        "familia": 42,
+        "registro": "015360/2024",
+        "validade": 46281
+      },
+      {
+        "familia": 43,
+        "registro": "017777/2024",
+        "validade": 46333
+      },
+      {
+        "familia": 44,
+        "registro": "017681/2024",
+        "validade": 46333
+      },
+      {
+        "familia": 45,
+        "registro": "016905/2024",
+        "validade": 46319
+      },
+      {
+        "familia": 46,
+        "registro": "012451/2024",
+        "validade": 46222
+      },
+      {
+        "familia": 47,
+        "registro": "015680/2024",
+        "validade": 46289
+      },
+      {
+        "familia": 48,
+        "registro": "pulou",
+        "validade": "X"
+      },
+      {
+        "familia": 49,
+        "registro": "013221/2024",
+        "validade": 46235
+      },
+      {
+        "familia": 50,
+        "registro": "015400/2024",
+        "validade": 46277
+      },
+      {
+        "familia": 51,
+        "registro": "015109/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 52,
+        "registro": "015017/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 53,
+        "registro": "015401/2024",
+        "validade": 46277
+      },
+      {
+        "familia": 54,
+        "registro": "015566/2024",
+        "validade": 46191
+      },
+      {
+        "familia": 55,
+        "registro": "015864/2024",
+        "validade": 46297
+      },
+      {
+        "familia": 56,
+        "registro": "016600/2024",
+        "validade": 46313
+      },
+      {
+        "familia": 57,
+        "registro": "015682/2024",
+        "validade": 46289
+      },
+      {
+        "familia": 58,
+        "registro": "014987/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 59,
+        "registro": "014995/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 60,
+        "registro": "015008/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 61,
+        "registro": "015010/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 62,
+        "registro": "015011/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 63,
+        "registro": "015012/2024",
+        "validade": 46271
+      },
+      {
+        "familia": 64,
+        "registro": "015014/2024",
+        "validade": 46274
+      },
+      {
+        "familia": 65,
+        "registro": "017880/2024",
+        "validade": 46345
+      },
+      {
+        "familia": 66,
+        "registro": "013158/2025",
+        "validade": 46333
+      },
+      {
+        "familia": 67,
+        "registro": "015402/2024",
+        "validade": 46281
+      },
+      {
+        "familia": 68,
+        "registro": "017879/2024",
+        "validade": 46344
+      },
+      {
+        "familia": 69,
+        "registro": "017584/2024",
+        "validade": 46330
+      },
+      {
+        "familia": 70,
+        "registro": "018674/2024",
+        "validade": 46365
+      },
+      {
+        "familia": 71,
+        "registro": "019062/2024",
+        "validade": 46369
+      },
+      {
+        "familia": 72,
+        "registro": "018564/2024",
+        "validade": 46359
+      },
+      {
+        "familia": 73,
+        "registro": "018567/2024",
+        "validade": 46359
+      },
+      {
+        "familia": 74,
+        "registro": "018648/2024",
+        "validade": 46362
+      },
+      {
+        "familia": 75,
+        "registro": "018550/2024",
+        "validade": 46358
+      },
+      {
+        "familia": 76,
+        "registro": "018552/2024",
+        "validade": 46358
+      },
+      {
+        "familia": 77,
+        "registro": "018568/2024",
+        "validade": 46360
+      },
+      {
+        "familia": 78,
+        "registro": "018573/2024",
+        "validade": 46360
+      },
+      {
+        "familia": 79,
+        "registro": "018574/2024",
+        "validade": 46360
+      },
+      {
+        "familia": 80,
+        "registro": "001389/2025",
+        "validade": 46424
+      },
+      {
+        "familia": 81,
+        "registro": "005092/2025",
+        "validade": 46458
+      },
+      {
+        "familia": 82,
+        "registro": "001903/2025",
+        "validade": 46438
+      },
+      {
+        "familia": 83,
+        "registro": "001392/2025",
+        "validade": 46423
+      },
+      {
+        "familia": 84,
+        "registro": "005176/2025",
+        "validade": 46423
+      },
+      {
+        "familia": 85,
+        "registro": "000256/2025",
+        "validade": 46393
+      },
+      {
+        "familia": 86,
+        "registro": "000711/2025",
+        "validade": 46396
+      },
+      {
+        "familia": 87,
+        "registro": "000758/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 88,
+        "registro": "000689/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 89,
+        "registro": "000757/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 90,
+        "registro": "000756/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 91,
+        "registro": "000755/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 92,
+        "registro": "000753/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 93,
+        "registro": "000751/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 94,
+        "registro": "000750/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 95,
+        "registro": "000749/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 96,
+        "registro": "000747/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 97,
+        "registro": "000743/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 98,
+        "registro": "000740/2025",
+        "validade": 46401
+      },
+      {
+        "familia": 99,
+        "registro": "000870/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 100,
+        "registro": "000867/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 101,
+        "registro": "000868/2025",
+        "validade": 46410
+      },
+      {
+        "familia": 102,
+        "registro": "002685/2025",
+        "validade": 46471
+      },
+      {
+        "familia": 103,
+        "registro": "003243/2025",
+        "validade": 46471
+      },
+      {
+        "familia": 104,
+        "registro": "002992/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 105,
+        "registro": "002993/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 106,
+        "registro": "002994/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 107,
+        "registro": "002995/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 108,
+        "registro": "002997/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 109,
+        "registro": "002998/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 110,
+        "registro": "003000/2025",
+        "validade": 46465
+      },
+      {
+        "familia": 111,
+        "registro": "003001/2025",
+        "validade": 46464
+      },
+      {
+        "familia": 112,
+        "registro": "003244/2025",
+        "validade": 46457
+      },
+      {
+        "familia": 113,
+        "registro": "003245/2025",
+        "validade": 46457
+      },
+      {
+        "familia": 114,
+        "registro": "003359/2025",
+        "validade": 46473
+      },
+      {
+        "familia": 115,
+        "registro": "003360/2025",
+        "validade": 46473
+      },
+      {
+        "familia": 116,
+        "registro": "003361/2025",
+        "validade": 46473
+      },
+      {
+        "familia": 117,
+        "registro": "003362/2025",
+        "validade": 46473
+      },
+      {
+        "familia": 118,
+        "registro": "003246/2025",
+        "validade": 46472
+      },
+      {
+        "familia": 119,
+        "registro": "003247/2025",
+        "validade": 46472
+      },
+      {
+        "familia": 120,
+        "registro": "003694/2025",
+        "validade": 46481
+      },
+      {
+        "familia": 121,
+        "registro": "003695/2025",
+        "validade": 46481
+      },
+      {
+        "familia": 122,
+        "registro": "004104/2025",
+        "validade": 46486
+      },
+      {
+        "familia": 123,
+        "registro": "004784/2025",
+        "validade": 46506
+      },
+      {
+        "familia": 124,
+        "registro": "004787/2025",
+        "validade": 46506
+      },
+      {
+        "familia": 125,
+        "registro": "004824/2025",
+        "validade": 46509
+      },
+      {
+        "familia": 126,
+        "registro": "004826/2025",
+        "validade": 46509
+      },
+      {
+        "familia": 127,
+        "registro": "007092/2025",
+        "validade": 46197
+      },
+      {
+        "familia": 128,
+        "registro": "005535/2025",
+        "validade": 46523
+      },
+      {
+        "familia": 129,
+        "registro": "007389/2025",
+        "validade": 46190
+      },
+      {
+        "familia": 130,
+        "registro": "007094/2025",
+        "validade": 46198
+      },
+      {
+        "familia": 131,
+        "registro": "006076/2025",
+        "validade": 46528
+      },
+      {
+        "familia": 132,
+        "registro": "005785/2025",
+        "validade": 46528
+      },
+      {
+        "familia": 133,
+        "registro": "005787/2025",
+        "validade": 46528
+      },
+      {
+        "familia": 134,
+        "registro": "007100/2025",
+        "validade": 46198
+      },
+      {
+        "familia": 135,
+        "registro": "007692/2025",
+        "validade": 46210
+      },
+      {
+        "familia": 136,
+        "registro": "006969/2025",
+        "validade": 46191
+      },
+      {
+        "familia": 137,
+        "registro": "006973/2025",
+        "validade": 46191
+      },
+      {
+        "familia": 138,
+        "registro": "007416/2025",
+        "validade": 46204
+      },
+      {
+        "familia": 139,
+        "registro": "006974/2025",
+        "validade": 46191
+      },
+      {
+        "familia": 140,
+        "registro": "006975/2025",
+        "validade": 46191
+      },
+      {
+        "familia": 141,
+        "registro": "006976/2025",
+        "validade": 46191
+      },
+      {
+        "familia": 142,
+        "registro": "006977/2025",
+        "validade": 46191
+      },
+      {
+        "familia": 143,
+        "registro": "006978/2025",
+        "validade": 46193
+      },
+      {
+        "familia": 144,
+        "registro": "006979/2025",
+        "validade": 46193
+      },
+      {
+        "familia": 145,
+        "registro": "006981/2025",
+        "validade": 46193
+      },
+      {
+        "familia": 146,
+        "registro": "007691/2025",
+        "validade": 46210
+      },
+      {
+        "familia": 147,
+        "registro": "009492/2025",
+        "validade": 46254
+      },
+      {
+        "familia": 148,
+        "registro": "008367/2025",
+        "validade": 46224
+      },
+      {
+        "familia": 149,
+        "registro": "001357/2026",
+        "validade": 46238
+      },
+      {
+        "familia": 150,
+        "registro": "008370/2025",
+        "validade": 46224
+      },
+      {
+        "familia": 151,
+        "registro": "008371/2025",
+        "validade": 46224
+      },
+      {
+        "familia": 152,
+        "registro": "009110/2025",
+        "validade": 46246
+      },
+      {
+        "familia": 153,
+        "registro": "009200/2025",
+        "validade": 46249
+      },
+      {
+        "familia": 154,
+        "registro": "009195/2025",
+        "validade": 46249
+      },
+      {
+        "familia": 155,
+        "registro": "009198/2025",
+        "validade": 46249
+      },
+      {
+        "familia": 156,
+        "registro": "009199/2025",
+        "validade": 46249
+      },
+      {
+        "familia": 157,
+        "registro": "009089/2025",
+        "validade": 46248
+      },
+      {
+        "familia": 158,
+        "registro": "009120/2025",
+        "validade": 46248
+      },
+      {
+        "familia": 159,
+        "registro": "009123/2025",
+        "validade": 46248
+      },
+      {
+        "familia": 160,
+        "registro": "009119/2025",
+        "validade": 46248
+      },
+      {
+        "familia": 161,
+        "registro": "012655/2025",
+        "validade": 46325
+      },
+      {
+        "familia": 162,
+        "registro": "000151/2026",
+        "validade": 46375
+      },
+      {
+        "familia": 163,
+        "registro": "013716/2025",
+        "validade": 46351
+      },
+      {
+        "familia": 164,
+        "registro": "000749/2026",
+        "validade": 46396
+      },
+      {
+        "familia": 165,
+        "registro": "001438/2026",
+        "validade": 46415
+      },
+      {
+        "familia": 166,
+        "registro": "002948/2026",
+        "validade": 46452
+      },
+      {
+        "familia": 167,
+        "registro": "002949/2026",
+        "validade": 46452
+      },
+      {
+        "familia": 168,
+        "registro": 3745762,
+        "validade": 46471
+      },
+      {
+        "familia": 169,
+        "registro": 3745774,
+        "validade": 46471
+      },
+      {
+        "familia": 170,
+        "registro": "003270/2026",
+        "validade": 46460
+      },
+      {
+        "familia": 171,
+        "registro": "003654/2026",
+        "validade": 46465
+      },
+      {
+        "familia": 172,
+        "registro": "003510/2026",
+        "validade": 46464
+      },
+      {
+        "familia": 173,
+        "registro": "003511/2026",
+        "validade": 46464
+      },
+      {
+        "familia": 174,
+        "registro": "003430/2026",
+        "validade": 46464
+      },
+      {
+        "familia": 175,
+        "registro": "003431/2026",
+        "validade": 46464
+      },
+      {
+        "familia": 176
+      },
+      {
+        "familia": 177
+      },
+      {
+        "familia": 178
+      },
+      {
+        "familia": 179
+      },
+      {
+        "familia": 180
+      }
+    ],
+    "F07 - Dongguan Hanson Plastic P": [
+      {
+        "familia": 1,
+        "registro": "011451/2025",
+        "validade": 46291
+      },
+      {
+        "familia": 2,
+        "registro": "010288/2025",
+        "validade": 46273
+      },
+      {
+        "familia": 3,
+        "registro": "008801/2025",
+        "validade": 46273
+      },
+      {
+        "familia": 4,
+        "registro": " 010303/2025",
+        "validade": 46277
+      },
+      {
+        "familia": 5,
+        "registro": "010285/2025",
+        "validade": 46273
+      },
+      {
+        "familia": 6,
+        "registro": "010437/2025",
+        "validade": 46276
+      },
+      {
+        "familia": 7,
+        "registro": "010438/2025",
+        "validade": 46276
+      },
+      {
+        "familia": 8,
+        "registro": "010284/2025",
+        "validade": 46269
+      },
+      {
+        "familia": 9,
+        "registro": "014167/2025",
+        "validade": 46361
+      },
+      {
+        "familia": 10,
+        "registro": "014179/2025",
+        "validade": 46361
+      },
+      {
+        "familia": 11
+      },
+      {
+        "familia": 12
+      },
+      {
+        "familia": 13
+      },
+      {
+        "familia": 14
+      },
+      {
+        "familia": 15
+      },
+      {
+        "familia": 16
+      },
+      {
+        "familia": 17
+      },
+      {
+        "familia": 18
+      },
+      {
+        "familia": 19
+      },
+      {
+        "familia": 20
+      },
+      {
+        "familia": 21
+      },
+      {
+        "familia": 22
+      },
+      {
+        "familia": 23
+      },
+      {
+        "familia": 24
+      }
+    ],
+    "8 -Shantou Chenghai Chile Toy ": [
+      {
+        "familia": 1,
+        "registro": "013851/2025",
+        "validade": 46352
+      }
+    ],
+    "9 - Guangdong Huina Model CO.": [
+      {
+        "familia": 1,
+        "registro": "014502/2025",
+        "validade": 46357
       }
     ]
   }
