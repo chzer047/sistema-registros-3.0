@@ -4,6 +4,7 @@ const arquivos = [
   "dados/bolsa.json"
 ];
 
+// CARREGA DADOS
 async function carregarDados() {
   for (let arq of arquivos) {
     const res = await fetch(arq);
@@ -12,6 +13,7 @@ async function carregarDados() {
   }
 }
 
+// BUSCA
 function buscar() {
   const texto = document.getElementById("busca").value.toLowerCase();
 
@@ -23,17 +25,52 @@ function buscar() {
 
   banco.forEach(c => {
     if (c.cliente === cliente) {
-      let dados = c.fabricas["Fabrica " + fabrica];
+      let nomeFabrica = "Fabrica " + fabrica;
+
+      let dados = c.fabricas[nomeFabrica];
+
       if (dados) {
         dados.forEach(item => {
-          if (item.familia === familia) resultado.push(item);
+          if (item.familia == familia) {
+            resultado.push({
+              cliente: c.cliente,
+              fabrica: nomeFabrica,
+              ...item
+            });
+          }
         });
       }
     }
   });
 
-  document.getElementById("resultado").innerText =
-    resultado.length ? JSON.stringify(resultado, null, 2) : "Nada encontrado";
+  exibir(resultado);
+}
+
+// EXIBIÇÃO BONITA
+function exibir(dados) {
+  const div = document.getElementById("resultado");
+
+  if (!dados.length) {
+    div.innerHTML = "❌ Nada encontrado";
+    return;
+  }
+
+  div.innerHTML = dados.map(d => `
+    <div style="
+      background:#1a1a1a;
+      padding:15px;
+      border-radius:10px;
+      margin-bottom:15px;
+      text-align:left;
+    ">
+      <strong>📦 Cliente:</strong> ${d.cliente}<br>
+      <strong>🏭 Fábrica:</strong> ${d.fabrica}<br>
+      <strong>🔢 Família:</strong> ${d.familia}<br>
+      <strong>📄 Registro:</strong> ${d.registro}<br>
+      <strong>📅 Validade:</strong> ${d.validade}<br>
+      <strong>🔧 Manutenção:</strong> ${d.manutencao || "—"}
+    </div>
+  `).join("");
 }
 
 carregarDados();
