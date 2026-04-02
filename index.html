@@ -6,62 +6,161 @@
 
 <style>
 body {
-  background: #0b0b0b;
-  color: white;
-  font-family: Arial;
-  text-align: center;
-}
-
-h2 {
-  margin-top: 30px;
-}
-
-.container {
-  margin-top: 30px;
+  background:#0b0b0b;
+  color:white;
+  font-family:Arial;
+  text-align:center;
 }
 
 button {
-  background: #1a1a1a;
-  color: white;
-  border: none;
-  padding: 12px 18px;
-  margin: 8px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-button:hover {
-  background: #2a2a2a;
+  background:#1a1a1a;
+  color:white;
+  border:none;
+  padding:12px;
+  margin:6px;
+  border-radius:10px;
+  cursor:pointer;
 }
 
 .card {
-  background: #1a1a1a;
-  padding: 15px;
-  border-radius: 10px;
-  margin: 10px auto;
-  width: 90%;
-  max-width: 500px;
-  text-align: left;
+  padding:15px;
+  margin:10px auto;
+  border-radius:10px;
+  width:90%;
+  max-width:500px;
+  text-align:left;
 }
+
+.verde { background:#1f3d1f; }
+.amarelo { background:#4d3d00; }
+.vermelho { background:#4d0000; }
 </style>
 </head>
 
 <body>
 
-<h2>📦 Sistema de Registros</h2>
+<h2>📊 Sistema de Registros</h2>
 
+<div id="painel"></div>
 <div id="tela"></div>
 
 <script>
 let banco = [];
 
-// 🔥 CARREGAR TODOS OS CLIENTES AQUI
 const arquivos = [
   "dados/bolsa.json"
 ];
 
-// INICIO
+// ===== DATA =====
+function diasRestantes(dataStr) {
+  if (!dataStr) return null;
+
+  const [d,m,a] = dataStr.split("/");
+  const data = new Date(a, m-1, d);
+  const hoje = new Date();
+
+  return Math.ceil((data - hoje) / (1000*60*60*24));
+}
+
+// ===== PAINEL =====
+function gerarPainel() {
+  let vencendo = [];
+
+  banco.forEach(c => {
+    Object.keys(c.fabricas).forEach(f => {
+      c.fabricas[f].forEach(item => {
+
+        let dias = diasRestantes(item.validade);
+
+        if (dias !== null && dias <= 30) {
+          vencendo.push({
+            cliente: c.cliente,
+            fabrica: f,
+            ...item,
+            dias
+          });
+        }
+
+      });
+    });
+  });
+
+  let html = `<h3>⚠️ Vencimentos próximos</h3>`;
+
+  if (!vencendo.length) {
+    html += "Tudo ok ✔";
+  } else {
+    vencendo.forEach(v => {
+      html += `
+        <div class="card amarelo">
+          ${v.cliente} | ${v.fabrica}<br>
+          Família ${v.familia} - ${v.validade} (${v.dias} dias)
+        </div>
+      `;
+    });
+  }
+
+  document.getElementById("painel").innerHTML = html;
+}
+
+// ===== CLIENTES =====
+function mostrarClientes() {
+  let html = "<h3>Clientes</h3>";
+
+  banco.forEach((c,i) => {
+    html += `<button onclick="abrirFabricas(${i})">${c.cliente}</button>`;
+  });
+
+  document.getElementById("tela").innerHTML = html;
+}
+
+// ===== FABRICAS =====
+function abrirFabricas(i) {
+  let c = banco[i];
+
+  let html = `<h3>${c.cliente}</h3>
+  <button onclick="mostrarClientes()">⬅</button>`;
+
+  Object.keys(c.fabricas).forEach(f => {
+    html += `<button onclick="abrirFamilias(${i}, '${f}')">${f}</button>`;
+  });
+
+  document.getElementById("tela").innerHTML = html;
+}
+
+// ===== FAMILIAS =====
+function abrirFamilias(i, f) {
+  let c = banco[i];
+  let dados = c.fabricas[f];
+
+  let html = `<h3>${c.cliente}</h3>
+  <h4>${f}</h4>
+  <button onclick="abrirFabricas(${i})">⬅</button>`;
+
+  dados.forEach(d => {
+
+    let dias = diasRestantes(d.validade);
+    let classe = "verde";
+
+    if (dias !== null) {
+      if (dias < 0) classe = "vermelho";
+      else if (dias <= 30) classe = "amarelo";
+    }
+
+    html += `
+      <div class="card ${classe}">
+        Família: ${d.familia}<br>
+        Registro: ${d.registro}<br>
+        Validade: ${d.validade}<br>
+        Manutenção: ${d.manutencao || "—"}
+      </div>
+    `;
+  });
+
+  document.getElementById("tela").innerHTML = html;
+}
+
+// ===== INIT =====
 async function iniciar() {
   for (let arq of arquivos) {
     const res = await fetch(arq);
@@ -69,70 +168,8 @@ async function iniciar() {
     banco.push(json);
   }
 
+  gerarPainel();
   mostrarClientes();
-}
-
-// =======================
-// CLIENTES
-// =======================
-function mostrarClientes() {
-  let html = "<h3>Escolha o Cliente</h3><div class='container'>";
-
-  banco.forEach((c, i) => {
-    html += `<button onclick="abrirFabricas(${i})">${c.cliente}</button>`;
-  });
-
-  html += "</div>";
-
-  document.getElementById("tela").innerHTML = html;
-}
-
-// =======================
-// FABRICAS
-// =======================
-function abrirFabricas(index) {
-  let cliente = banco[index];
-
-  let html = `
-    <h3>${cliente.cliente}</h3>
-    <button onclick="mostrarClientes()">⬅ Voltar</button>
-    <div class='container'>
-  `;
-
-  Object.keys(cliente.fabricas).forEach(f => {
-    html += `<button onclick="abrirFamilias(${index}, '${f}')">${f}</button>`;
-  });
-
-  html += "</div>";
-
-  document.getElementById("tela").innerHTML = html;
-}
-
-// =======================
-// FAMILIAS
-// =======================
-function abrirFamilias(index, fabrica) {
-  let cliente = banco[index];
-  let dados = cliente.fabricas[fabrica];
-
-  let html = `
-    <h3>${cliente.cliente}</h3>
-    <h4>${fabrica}</h4>
-    <button onclick="abrirFabricas(${index})">⬅ Voltar</button>
-  `;
-
-  dados.forEach(d => {
-    html += `
-      <div class="card">
-        <strong>🔢 Família:</strong> ${d.familia}<br>
-        <strong>📄 Registro:</strong> ${d.registro}<br>
-        <strong>📅 Validade:</strong> ${d.validade || "—"}<br>
-        <strong>🔧 Manutenção:</strong> ${d.manutencao || "—"}
-      </div>
-    `;
-  });
-
-  document.getElementById("tela").innerHTML = html;
 }
 
 iniciar();
